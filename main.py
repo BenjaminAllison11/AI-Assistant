@@ -15,8 +15,8 @@ activationWord = 'computer'
 joke_response = requests.get("https://v2.jokeapi.dev/joke/Any")
 compliment_response = requests.get("https://complimentr.com/api")
 
-#browser config, set path
-opera_path = r"C:\Users\benja\AppData\Local\Programs\Opera GX\launcher.exe"
+#browser config, set path, replace instances of opera with your browser name
+opera_path = r"filepath to your browser here"
 webbrowser.register('opera', None, webbrowser.BackgroundBrowser(opera_path))
 
 
